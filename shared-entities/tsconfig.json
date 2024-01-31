@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "declaration": true,
+      "esModuleInterop": true,
+      "module": "commonjs",
+      "outDir": "./dist",
+      "rootDir": "./src",
+      "target": "es2015",
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "strict": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "strictPropertyInitialization": false
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules", "dist"]
+  }
